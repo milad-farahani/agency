@@ -1,0 +1,408 @@
+.head{
+  width: 100%;
+  height: 930px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./pitcer/80b7ece24a3d47292461f8e199ffdd36.jpg);
+  background-size: cover;
+  background-position: 0 52%;
+}
+  .i {
+    margin-right: 13%;
+    margin-top: 5%;
+    font-size: 35px;
+  }
+
+  .fab {
+  background-color: white;
+  margin: 20px;
+  }
+
+  .navabar {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    margin-left: 10%; 
+  }
+
+.ul {
+  display: flex;
+}
+
+li {
+  margin-left: 29%;
+  margin-top: 36%;
+  font-size: 18px;
+}
+a {
+  color: white;
+}
+
+.logo {
+  width: 186px;
+  height: 58px;
+  margin-top: 5%;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 7%;
+}
+
+ h1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 0.2px;
+  font-size: 74px;
+  line-height: 84px;
+  margin-top: revert;
+ }
+
+ .Paragraph-head {
+   color: white;
+   display: flex;
+   text-align: center;
+   font-size: xx-large;
+   margin-top: revert;
+ }
+
+ .Paragraph {
+   font-size: 18px;
+   margin-top: 5%;
+ }
+
+ .bord {
+  border-top:150px solid transparent;
+  border-right:951.5px solid white;
+  border-left:951.5px solid white;
+  margin-top: 4.66%;
+}
+
+button {
+  color: white;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  background: #2091F9;
+  border-radius: 35px;
+  padding: 16px;
+  margin-top: 4%;
+  width: 236px;
+ }
+
+ .for-p {
+   font-size: 20px;
+ }
+
+ .features {
+   margin-left: 47.5%;
+   margin-top: 5%;
+ }
+
+ .Paragraph3 {
+   display: flex;
+   text-align: center;
+   font-size: 28px;
+   margin-left: 39%;
+   margin-top: 3%;
+ }
+
+ .svg {
+  display: flex;
+   margin-top: 4%;
+   justify-content: space-around;
+ }
+
+ .fas {
+   color: #2091F9;
+   font-size: xx-large;
+ }
+
+ .Paragraphboxkol {
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+   margin-top: 1%;
+ }
+
+ .video1 {
+   margin-top: 5%;
+   margin-left: 22%;
+   border-radius: 5%;
+   width: 1178px;
+   height: 658px;
+ }
+
+ .Paragraph4 {
+   display: flex;
+   flex-direction: column;
+  margin-top: 15%;
+  margin-left: 18%;
+ }
+
+ .image1 {
+   margin-left: 55%;
+   border: black solid 10px;
+   border-top-left-radius: 5%;
+   border-top-right-radius: 5%;
+   margin-top: -13%;
+ }
+
+ .image2 {
+  margin-left: 16%;
+  margin-top: 20%;
+ }
+  
+ section {
+  margin-top: -18%;
+  margin-left: 70%;
+ }
+
+ input {
+   border-radius: 35px;
+   font-size: 20px;
+  line-height: 20px;
+  padding: 16px;
+  margin-top: 4%;
+  width: 236px;
+ }
+
+ .see {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 17%;
+   text-align: center;
+ }
+
+ h4 {
+   font-size: 28px;
+ }
+
+ h2 {
+   font-size: 48px;
+ }
+
+ h3 {
+   font-size: 20px;
+ }
+
+ .image3, .image4 {
+   display: flex;
+   justify-content: center;
+   margin-top: 5%;
+ }
+ .image4 {
+   margin-top: 0%;
+ }
+
+ .btn {
+   display: flex;
+   justify-content: center;
+   margin-top: 2%;
+ }
+
+ .image5 {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 10%;
+   align-items: center;
+   text-align: center;
+ }
+
+ .image5 >* {
+   margin: 20px;
+ }
+
+ .pricing {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 100%;
+   height: 1155px;
+   background-color: #252B42;
+   margin-top: 4%;
+ }
+
+ .background {
+  margin-top: 4%;
+  color: white;
+ }
+
+ .pricingform {
+   width: 355px;
+   height: 607px;
+   background-color: white;
+   border-radius: 10px;
+ }
+
+ .image7 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 6%;
+ }
+
+ .for-image7 {
+   margin-top: 2%;
+ }
+
+ .form-b {
+   height: 693px;
+   margin-top: -2%;
+   background-color: #2091F9;
+ }
+
+ .free-form {
+   display: flex;
+   margin-left: 48%;
+   margin-top: -22%;
+ }
+
+ .zero {
+font-size: 75px;
+margin-right: 25%;
+ }
+
+ .h-free {
+   margin-top: 10%;
+ }
+ h5 {
+   font-size: 16px;
+   color: #374754;
+ }
+
+ .link {
+   display: flex;
+   flex-direction: column;
+   color: black;
+   margin: 5%;
+ }
+
+ #link {
+   color: black;
+   background-color: white;
+ }
+
+ form {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: space-evenly;
+   width: 453px;
+   height: 669px;
+   border: 1px solid black;
+   border-radius: 20px;
+   margin-left: 18%;
+   margin-top: 4%;
+ }
+
+ .top-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10%;
+ }
+ 
+ .form-title-header {
+ margin-top: 10%;
+ }
+
+ .input-form {
+   background:  #F5F5F5;
+  width: 353px;
+  height: 54px;
+ }
+
+ textarea {
+  background:  #F5F5F5;
+   width: 353px;
+   height: 193px;
+ }
+
+ .btn-form {
+  width: 145px;
+  height: 56px;
+  margin-right: 50%;
+ }
+
+ .form-map {
+   display: flex;
+ }
+
+ .map-responsive {
+  margin-left: 32%;
+  margin-top: 10%;
+ }
+
+ .icon-form{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 35%;
+   height: 32px;
+   margin-top: 20%;
+   width: 550px;
+ }
+
+ .section-form-map {
+   display: flex;
+   flex-direction: column;
+ }
+.form-paragraph-location {
+  margin-left: 15%;
+  display: flex;
+  text-align: center;
+}
+.form-paragraph-mobile {
+  margin-left: 75%;
+  margin-top: -12%;
+}
+.form-paragraph-message {
+  margin-left: 114%;
+  margin-top: -9%;
+}
+
+.icon {
+    color: #2091F9;
+    font-size: xx-large;
+    margin-left: 14%;
+}
+
+.end-page {
+  display: flex;
+  width: 100%;
+  height: 567px;
+  background: #252B42;
+  margin-top: 6%;
+  align-items: center;
+}
+
+.title-end-page {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin-left: 15%;
+}
+.title-end-page >* {
+  margin-top: 20px;
+}
+
+.icon-end-page {
+  display: flex;
+  font-size: xxx-large;
+  color: white;
+  background-color: #252B42;
+  margin: 0.1px;
+  margin-top: 50px;
+}
+
+.link-end-page {
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.icon-end {
+  background-color: #252B42;
+}
