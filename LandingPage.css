@@ -2,21 +2,22 @@ body {
   font-family: roboto;
 }
 .head{
-  width: 100%;
-  height: 930px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./pitcer/80b7ece24a3d47292461f8e199ffdd36.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+   url(./pitcer/80b7ece24a3d47292461f8e199ffdd36.jpg);
   background-size: cover;
   background-position: 0 52%;
 }
   .i {
     margin-right: 13%;
     margin-top: 5%;
-    font-size: 35px;
+    font-size: 26px;
+    color: white;
   }
 
   .fab {
-  background-color: white;
   margin: 20px;
+  height: 32px;
+ 
   }
 
   .navabar {
@@ -32,11 +33,12 @@ body {
 }
 
 li {
-  margin-left: 29%;
-  margin-top: 36%;
+  margin-left: 24%;
+  margin-top: 33%;
   font-size: 18px;
 }
 a {
+  text-decoration: none;
   color: white;
 }
 
@@ -63,7 +65,7 @@ a {
   margin-top: revert;
  }
 
- .Paragraph-head {
+ .paragraph-head {
    color: white;
    display: flex;
    text-align: center;
@@ -71,7 +73,7 @@ a {
    margin-top: revert;
  }
 
- .Paragraph {
+ .paragraph {
    font-size: 18px;
    margin-top: 5%;
  }
@@ -93,6 +95,7 @@ button {
   padding: 16px;
   margin-top: 4%;
   width: 236px;
+  border: none;
  }
 
  .for-p {
@@ -100,22 +103,22 @@ button {
  }
 
  .features {
-   margin-left: 47.5%;
+   margin-left: 45.3%;
    margin-top: 5%;
  }
 
- .Paragraph3 {
+ .paragraph3 {
    display: flex;
    text-align: center;
    font-size: 28px;
-   margin-left: 39%;
+   margin-left: 38%;
    margin-top: 3%;
  }
 
  .svg {
   display: flex;
    margin-top: 4%;
-   justify-content: space-around;
+   justify-content: space-evenly;
  }
 
  .fas {
@@ -123,22 +126,29 @@ button {
    font-size: xx-large;
  }
 
- .Paragraphboxkol {
+ .paragraphboxkol {
    display: flex;
    text-align: center;
-   justify-content: space-around;
+   justify-content: space-evenly;
    margin-top: 1%;
+ }
+
+ .paragraph-logo{
+  margin-left: 6%;
+ }
+
+ .paragraph-open-logo {
+  margin-right: 5%;
  }
 
  .video1 {
    margin-top: 5%;
    margin-left: 22%;
-   border-radius: 5%;
-   width: 1178px;
+   width: 1155px;
    height: 658px;
  }
 
- .Paragraph4 {
+ .paragraph4 {
    display: flex;
    flex-direction: column;
   margin-top: 15%;
@@ -150,17 +160,17 @@ button {
    border: black solid 10px;
    border-top-left-radius: 5%;
    border-top-right-radius: 5%;
-   margin-top: -13%;
+   margin-top: -18%;
  }
 
  .image2 {
   margin-left: 16%;
-  margin-top: 20%;
+  margin-top: 21%;
  }
   
  section {
   margin-top: -18%;
-  margin-left: 70%;
+  margin-left: 62%;
  }
 
  input {
@@ -170,6 +180,8 @@ button {
   padding: 16px;
   margin-top: 4%;
   width: 236px;
+  background-color: #F4F4F4;
+  border: none;
  }
 
  .see {
@@ -182,14 +194,17 @@ button {
 
  h4 {
    font-size: 28px;
+   color: #374754;
  }
 
  h2 {
    font-size: 48px;
+   color: #252B42;
  }
 
  h3 {
    font-size: 20px;
+   color: #252B42;
  }
 
  .image3, .image4 {
@@ -240,6 +255,7 @@ button {
    height: 607px;
    background-color: white;
    border-radius: 10px;
+   border: 1px solid white;
  }
 
  .image7 {
@@ -250,12 +266,14 @@ button {
 
  .for-image7 {
    margin-top: 2%;
+   color: white;
  }
 
  .form-b {
    height: 693px;
    margin-top: -2%;
    background-color: #2091F9;
+  
  }
 
  .free-form {
@@ -266,11 +284,27 @@ button {
 
  .zero {
 font-size: 75px;
-margin-right: 25%;
+margin-right: 23%;
+ }
+
+ .ten {
+  font-size: 75px;
+  margin-right: 30%;
+  color: white;
+ }
+
+ .dollar-form-b {
+   color: white;
+ }
+
+ .ninety-nine {
+  font-size: 75px;
+  margin-right: 30%;
  }
 
  .h-free {
    margin-top: 10%;
+   color: white;
  }
  h5 {
    font-size: 16px;
@@ -284,9 +318,17 @@ margin-right: 25%;
    margin: 5%;
  }
 
+ .for-form-b {
+   color: white;
+ }
+
  #link {
-   color: black;
    background-color: white;
+   margin-top: 14.5%;
+ }
+
+ .a-btn-form {
+   color: #2091F9;
  }
 
  form {
@@ -296,10 +338,11 @@ margin-right: 25%;
    justify-content: space-evenly;
    width: 453px;
    height: 669px;
-   border: 1px solid black;
+   border: 1px solid #DDDDDD;
    border-radius: 20px;
    margin-left: 18%;
    margin-top: 4%;
+   box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
  }
 
  .top-form {
@@ -323,6 +366,7 @@ margin-right: 25%;
   background:  #F5F5F5;
    width: 353px;
    height: 193px;
+   border: none;
  }
 
  .btn-form {
@@ -396,7 +440,6 @@ margin-right: 25%;
   display: flex;
   font-size: xxx-large;
   color: white;
-  background-color: #252B42;
   margin: 0.1px;
   margin-top: 50px;
 }
@@ -406,6 +449,6 @@ margin-right: 25%;
   margin-left: 20px;
 }
 
-.icon-end {
-  background-color: #252B42;
+.headline-end {
+  color: white;
 }
